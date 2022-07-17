@@ -13,7 +13,7 @@ const Banner = () => {
     <div className="w-full h-screen text-white">
       <img
         className="w-full h-screen object-cover"
-        src={`https://dineatdome.com/wp-content/uploads/2021/04/domes-scaled.jpg`}
+        src={`https://dineatdome.com/wp-content/uploads/2021/11/021_reverie_dine_at_dome-14.jpg`}
         alt=""
       />
       <div className="bg-black/60 fixed top-0 left-0 w-full h-screen">
