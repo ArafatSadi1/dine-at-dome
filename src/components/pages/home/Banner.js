@@ -10,13 +10,18 @@ import cat_7 from "../../../images/icons/distillation.png";
 
 const Banner = () => {
   return (
-    <div className="w-full h-screen text-white">
-      <img
+    <div className="w-full h-[600px] text-white" style={{  
+      backgroundImage: "url(https://dineatdome.com/wp-content/uploads/2021/11/021_reverie_dine_at_dome-14.jpg)",
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat'
+    }}>
+      {/* <img
         className="w-full h-screen object-cover"
         src={`https://dineatdome.com/wp-content/uploads/2021/11/021_reverie_dine_at_dome-14.jpg`}
         alt=""
-      />
-      <div className="bg-black/60 fixed top-0 left-0 w-full h-screen">
+      /> */}
+      <div className="bg-black/60 top-0 left-0 w-full h-[600px]">
         <div className="absolute w-full h-screen">
           <div className="h-full flex justify-center items-center">
             <div>
