@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const NavBar = () => {
+  const location = useLocation();
   const items = (
     <>
       <li>
@@ -22,7 +23,7 @@ const NavBar = () => {
     </>
   );
   return (
-    <div class="navbar bg-base-100 z-50 absolute bg-transparent text-white px-0 lg:px-16">
+    <div className={location.pathname === '/' ? 'navbar z-50 absolute bg-transparent text-white px-0 lg:px-16' : 'navbar z-50 absolute bg-white text-black px-0 lg:px-16'}>
       <div class="navbar-start">
         <Link className="text-xl" to="/">
           DineAtDome
@@ -49,7 +50,7 @@ const NavBar = () => {
           </label>
           <ul
             tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-mono"
+            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-mono text-black"
           >
             {items}
           </ul>
