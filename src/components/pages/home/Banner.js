@@ -16,11 +16,6 @@ const Banner = () => {
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat'
     }}>
-      {/* <img
-        className="w-full h-screen object-cover"
-        src={`https://dineatdome.com/wp-content/uploads/2021/11/021_reverie_dine_at_dome-14.jpg`}
-        alt=""
-      /> */}
       <div className="bg-black/60 top-0 left-0 w-full h-[600px]">
         <div className="absolute w-full h-screen">
           <div className="h-full flex justify-center items-center">

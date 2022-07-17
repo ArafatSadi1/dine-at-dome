@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer class="footer footer-center rounded-none flex p-10 bg-slate-800 text-white rounded">
+    <footer class="footer footer-center flex p-10 bg-slate-800 text-white">
       <div>
         <p>Copyright © 2022 - All right reserved by Dine at Dome</p>
       </div>
