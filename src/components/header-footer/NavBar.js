@@ -25,8 +25,8 @@ const NavBar = () => {
   return (
     <div className={location.pathname === '/' ? 'navbar z-50 absolute bg-transparent text-white px-0 lg:px-16' : 'navbar z-50 absolute bg-white text-black px-0 lg:px-16'}>
       <div class="navbar-start">
-        <Link className="text-xl" to="/">
-          DineAtDome
+        <Link to="/">
+          {location.pathname === '/' ? <img width={100} src="https://dineatdome.com/wp-content/uploads/2020/06/DATD_logo_just_txt3.png" alt="" />:<p className="text-xl">Dine at Dome</p>}
         </Link>
       </div>
       <div class="hidden lg:navbar-center"></div>

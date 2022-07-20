@@ -5,6 +5,7 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Destination from "./components/pages/Destination";
 import Home from "./components/pages/home/Home";
+import ServiceDetails from "./components/pages/home/service-section/ServiceDetails";
 import Media from "./components/pages/Media";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="/" element={<Media />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="serviceDetails/:id" element={<ServiceDetails />} />
       </Routes>
       <Footer />
     </div>

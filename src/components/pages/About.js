@@ -202,7 +202,9 @@ const About = () => {
             <h1 class="mb-2 text-3xl font-bold">
               Are you a restaurant owner / manager?
             </h1>
-            <h3 class="mb-2 text-2xl font-semibold">Introduce Dine at Dome to your restaurant</h3>
+            <h3 class="mb-2 text-2xl font-semibold">
+              Introduce Dine at Dome to your restaurant
+            </h3>
             <p class="mb-5">
               We are now on the lookout for new restaurants across Europe to
               join our programme. We will provide you with a turn-key solution
@@ -210,7 +212,9 @@ const About = () => {
               social distancing regulations and without any investments on your
               part.
             </p>
-            <button class="btn btn-warning text-white font-bold">Learn more about Dine at Dome for Restaurateurs</button>
+            <button class="btn btn-warning text-white font-bold">
+              Learn more about Dine at Dome for Restaurateurs
+            </button>
           </div>
         </div>
       </div>
@@ -225,14 +229,20 @@ const About = () => {
         <div class="hero-content text-center text-white font-sans">
           <div class="">
             <h1 class="mb-2 text-3xl font-bold">
-            Wish to build a dome in your own garden?
+              Wish to build a dome in your own garden?
             </h1>
-            <h3 class="mb-2 text-2xl font-semibold">Our domes are also available for purchase</h3>
+            <h3 class="mb-2 text-2xl font-semibold">
+              Our domes are also available for purchase
+            </h3>
             <p class="mb-5">
-            Dining in the domes, as memorable as it is, is just one of many possible applications including:
-Patio Lounge, Personal Garden Gym, Yoga/Meditation Studio, Kids Playroom, Hot Tub Enclosure, Home Office Pod and many more.    
+              Dining in the domes, as memorable as it is, is just one of many
+              possible applications including: Patio Lounge, Personal Garden
+              Gym, Yoga/Meditation Studio, Kids Playroom, Hot Tub Enclosure,
+              Home Office Pod and many more.
             </p>
-            <button class="btn btn-error text-white font-bold">Visit Hypedome website to learn more</button>
+            <button class="btn btn-error text-white font-bold">
+              Visit Hypedome website to learn more
+            </button>
           </div>
         </div>
       </div>
