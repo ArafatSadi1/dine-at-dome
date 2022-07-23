@@ -8,6 +8,8 @@ import leaf from "../../../../images/icons/leaf.png";
 import mountain from "../../../../images/icons/mountain.png";
 import music from "../../../../images/icons/sound.png";
 import menu from "../../../../images/icons/menu.png";
+import Calender from "./Calender";
+import BookingForm from "./BookingForm";
 
 const ServiceDetails = () => {
   const [service, setService] = useState({});
@@ -63,11 +65,15 @@ const ServiceDetails = () => {
           <div className="mx-8">
             <div className="bg-base-100 p-4">
               <div className="p-2">
-                <h3 className="text-xl font-sans font-bold">About Restaurant</h3>
+                <h3 className="text-xl font-sans font-bold">
+                  About Restaurant
+                </h3>
                 <p className="font-sans mt-2">{service.aboutDom}</p>
               </div>
               <div className="p-2 py-6">
-                <h3 className="text-xl font-sans font-bold">Dine at Dome Experience</h3>
+                <h3 className="text-xl font-sans font-bold">
+                  Dine at Dome Experience
+                </h3>
                 <p className="font-sans mt-2">{service.DaDExperience}</p>
               </div>
               <div className="p-2">
@@ -141,7 +147,9 @@ const ServiceDetails = () => {
             </div>
           </div>
         </div>
-        <div></div>
+        <div>
+          <BookingForm service={service}></BookingForm>
+        </div>
       </div>
     </div>
   );
